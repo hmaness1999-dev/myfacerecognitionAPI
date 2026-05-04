@@ -1,0 +1,26 @@
+{
+  "name": "facerecognitionbrain-api",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "^0.0.3",
+    "body-parser": "^2.2.2",
+    "clarifai-nodejs-grpc": "^11.11.0",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "image-size": "^2.0.2",
+    "knex": "^3.2.9",
+    "pg": "^8.20.0"
+  }
+}
