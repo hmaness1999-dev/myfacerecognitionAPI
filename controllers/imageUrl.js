@@ -10,8 +10,8 @@ const handleImageUrl = async (req, res) => {
     const { width, height } = imageSize(imageBuffer);
 
     const params = new URLSearchParams({
-      api_key: 'vW2xxZSZAbWwsQRKpQIXN7OOXyX3b2ZL',
-      api_secret: 'saYc0mZLCHGeh5cRFzS_SDeIIAmcb2B1',
+      api_key: process.env.FACEPP_API_KEY,
+      api_secret: process.env.FACEPP_API_SECRET,
       image_url: imageUrl
     });
 
